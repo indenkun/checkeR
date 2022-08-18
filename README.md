@@ -40,3 +40,7 @@ This is a wrapper for `check.for.updates.R()` of the `{installr}`.
 
 The email address listed in the DESCRIPTION is a dummy. If you have any
 questions, please post them on ISSUE.
+
+## Licence
+
+MIT.
