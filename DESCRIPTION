@@ -1,0 +1,17 @@
+Package: checkeR
+Type: Package
+Title: Checks a newer version of R on RStudio add-in
+Version: 0.0.0.9000
+Author: indenkun
+Maintainer: indenkun <blog@indenkun.hatenablog.com>
+Description: Checks if there is a newer version of R on RStudio add-in.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: false
+RoxygenNote: 7.2.1
+Imports: 
+    installr,
+    purrr,
+    rstudioapi,
+    stringr
+Roxygen: list(markdown = TRUE)

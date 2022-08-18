@@ -1,0 +1,4 @@
+Name: Checks a newer version of R
+Description: Checks if there is a newer version of R
+Binding: checkeR
+Interactive: false
