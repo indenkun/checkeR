@@ -2,3 +2,8 @@ Name: Checks a newer version of R
 Description: Checks if there is a newer version of R
 Binding: checkeR
 Interactive: false
+
+Name: Checks a newer version of RStudio
+Description: Checks if there is a newer version of RStudio
+Binding: checkeRStudio
+Interactive: false

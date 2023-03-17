@@ -7,10 +7,11 @@ Maintainer: indenkun <blog@indenkun.hatenablog.com>
 Description: Checks if there is a newer version of R on RStudio add-in.
 License: MIT + file LICENSE
 Encoding: UTF-8
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3
 Imports: 
     installr,
     purrr,
     rstudioapi,
+    stats,
     stringr
 Roxygen: list(markdown = TRUE)

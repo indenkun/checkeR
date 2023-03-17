@@ -7,7 +7,7 @@
 <!-- badges: end -->
 
 `{checkeR}` is an add-in package for RStudio that checks for updates to
-R.
+R and RStudio.
 
 ## Installation
 
@@ -27,14 +27,20 @@ A dialog will indicate if there are updates available.
 
 ![](img/checkeR.gif)
 
-This is a wrapper for `check.for.updates.R()` of the `{installr}`.
+“Checks a newer version of R” is a wrapper for `check.for.updates.R()`
+of the `{installr}`.
+
+![](img/checkeRStudio.gif)
+
+“Checks a newer version of RStudio” check for available RStudio updates.
 
 ## Import
 
--   `{installr}`
--   `{purrr}`
--   `{stringr}`
--   `{rstudioapi}`
+- `{installr}`
+- `{purrr}`
+- `{stringr}`
+- `{rstudioapi}`
+- `{stats}`
 
 ## Notice
 
