@@ -38,17 +38,17 @@ checkeRStudio <- function(GUI = TRUE){
   newest_RStudio_version <- sub(pattern = "-", replacement = "+", newest_RStudio_version)
   current_RStudio_version <- rstudioapi::versionInfo()[["long_version"]]
 
-  there_is_a_newer_version <- utils::compareVersion(gsub(pattern = "\\+", replacement = ".", current_RStudio_version),
+  update_available <- utils::compareVersion(gsub(pattern = "\\+", replacement = ".", current_RStudio_version),
                                                     gsub(pattern = "\\+", replacement = ".", newest_RStudio_version)) == -1
 
-  if(there_is_a_newer_version){
+  if(update_available){
     title <- "Update Available"
     message_text <-   paste("There is a newer version of RStudio for you to download!\n",
                             "You are using RStudio version:\t", current_RStudio_version, "\n",
                             "And the latest RStudio version is:\t", newest_RStudio_version, "\n",
                             sep = "")
   }else{
-    title <- "NO Update Availabele"
+    title <- "No Update Availabele"
     message_text <- paste("No need to update. You are using the latest RStudio version: \n", current_RStudio_version)
   }
 
@@ -60,5 +60,5 @@ checkeRStudio <- function(GUI = TRUE){
     cat(message_text)
   }
 
-  return(there_is_a_newer_version)
+  return(update_available)
 }
