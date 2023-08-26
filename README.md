@@ -34,6 +34,14 @@ of the `{installr}`.
 
 “Checks a newer version of RStudio” check for available RStudio updates.
 
+![](img/view_news_RStudio.gif)
+
+“View NEWS of RStudio” display the RStudio Release Notes web page in a
+web browser.
+
+The default web browser will launch and display Posit’s RStudio release
+notes web page.
+
 ## Import
 
 - `{installr}`
@@ -41,6 +49,7 @@ of the `{installr}`.
 - `{stringr}`
 - `{rstudioapi}`
 - `{stats}`
+- `{utils}`
 
 ## Notice
 
