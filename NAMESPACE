@@ -2,3 +2,4 @@
 
 export(checkeR)
 export(checkeRStudio)
+export(view_news_RStudio)

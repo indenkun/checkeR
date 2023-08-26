@@ -7,3 +7,8 @@ Name: Checks a newer version of RStudio
 Description: Checks if there is a newer version of RStudio
 Binding: checkeRStudio
 Interactive: false
+
+Name: View NEWS of RStudio
+Description: Display the RStudio Release Notes web page in a web browser
+Binding: view_news_RStudio
+Interactive: false

@@ -13,5 +13,6 @@ Imports:
     purrr,
     rstudioapi,
     stats,
-    stringr
+    stringr,
+    utils
 Roxygen: list(markdown = TRUE)
